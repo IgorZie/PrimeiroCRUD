@@ -1,0 +1,19 @@
+body{
+    background: #fff;
+}
+
+.form-titulo{
+    text-align: center;
+    font-size: 28px;
+}
+
+.div-form{
+    width: 800px;
+    margin: auto;
+}
+
+.div-button{
+    text-align: center;
+    font-size: 32px;
+}
+
