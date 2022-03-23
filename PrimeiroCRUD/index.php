@@ -214,7 +214,7 @@ $list_users = "";
 
             echo "Deletado com sucesso!";
 
-            header("Location: http://localhost/index.php");
+            header("Location: http://localhost/PrimeiroCRUD/index.php");
         } else if ($_GET['action'] == "edit") {
 
             $queryEdit = mysqli_query($conexao, "SELECT * , stu.Id AS Id_Cad

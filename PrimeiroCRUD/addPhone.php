@@ -40,6 +40,6 @@ if (isset($_POST['add_cod']) && $addCod <> "") {
     echo "Erro na alteração";
 }
 
-header ("Location: http://localhost/telefone.php?id=$addId&action=editTel");
+header ("Location: http://localhost/PrimeiroCRUD/telefone.php?id=$addId&action=editTel");
 
 ?>

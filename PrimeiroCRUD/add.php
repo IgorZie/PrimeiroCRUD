@@ -44,6 +44,6 @@ if(isset($_POST["add_id"]) && $addId <> ""){
 
 
 
-header('Location: http://localhost/index.php');
+header('Location: http://localhost/PrimeiroCRUD/index.php');
 
 ?>

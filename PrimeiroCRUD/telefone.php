@@ -57,7 +57,7 @@ $codTelefone = "";
             mysqli_query($conexao, $queryDelTelefone);
             echo "Número deletado com sucesso!";
 
-            header("Location: http://localhost/telefone.php?id=$Id_User&action=editTel");
+            header("Location: http://localhost/PrimeiroCRUD/telefone.php?id=$Id_User&action=editTel");
         } else if ($_GET['action'] == 'editTelefone') {
 
             $queryEditar = mysqli_query($conexao, "SELECT con.AreaCode, con.PhoneNumber, stu.Id AS Id_Cad
@@ -103,7 +103,7 @@ $codTelefone = "";
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div v-for="job in job">
                     <div class="text-center">
-                        <a href="http://localhost/index.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Página Home</a>
+                        <a href="http://localhost/PrimeiroCRUD/index.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Página Home</a>
                     </div>
                 </div>
             </div>
